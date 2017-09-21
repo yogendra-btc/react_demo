@@ -1,0 +1,19 @@
+{% load render_bundle from webpack_loader %}
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>User Expenses</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css">
+      <script>
+        window.initialData = JSON.stringify({{users|safe}});
+      </script>     
+    </head>
+  
+    <body>
+      <div id="users_expenses"></div>
+      <div id="insert"></div>
+      {% render_bundle 'main' %}
+
+    </body>
+  </html>

@@ -1,0 +1,1 @@
+{"status":"error","chunks":{"main":[{"name":"main-a8e484e9a9701071143e.js","path":"/home/botree/project/test_api_project/assets/bundles/main-a8e484e9a9701071143e.js"}]},"error":"ModuleBuildError","message":"Module build failed: Error: ENOENT: no such file or directory, open '/home/botree/project/test_api_project/assets/js/index.js'"}

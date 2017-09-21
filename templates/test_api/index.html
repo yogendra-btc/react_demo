@@ -1,0 +1,13 @@
+{% load render_bundle from webpack_loader %}
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Example</title>
+    </head>
+  
+    <body>
+      <div id="react-app">HEllo ravi</div>
+      <div id="header">hi</div>
+      {%comment%}{% render_bundle 'main' %}{%endcomment%}
+    </body>
+  </html>
